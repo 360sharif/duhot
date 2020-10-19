@@ -590,21 +590,16 @@ Blog Area Start
  background:none;
 
 }
+#load-more .load-more button:hover{color:#000}
 #load-more .load-more button::after{
-    content:'\f0a9';
-    font-family:'fontawesome';
+    content:'arrow_forward';
+    font-family:'material icons';
     position: absolute;
     top:50%;
     right:-20%;
-    /* opacity:0; */
     transform:translatey(-50%);
     font-weight:600;
     transition:.3s;
-}
-#load-more .load-more:hover button::after{
-    right:-30%;
-    /* opacity:1; */
-
 }
 /* =============================================
 Blog Area End 
