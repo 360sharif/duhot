@@ -587,19 +587,22 @@ Blog Area Start
  padding:20px;
  padding-right:0;
  position:relative;
- background:none;
-
 }
 #load-more .load-more button:hover{color:#000}
 #load-more .load-more button::after{
-    content:'hello';
-/*     font-family:'material icons'; */
+    content:'arrow_forward';
+    font-family:'material icons';
     position: absolute;
     top:50%;
     right:-20%;
     transform:translatey(-50%);
     font-weight:600;
     transition:.3s;
+}
+#load-more .load-more:hover button::after{
+    right:-30%;
+    color:#000;
+
 }
 /* =============================================
 Blog Area End 
@@ -622,7 +625,7 @@ Offer Area start
     font-weight: bold;
 }
 .offer .offer-des P{
-    color:#454f50;
+    color:#8f8f8f;
     text-align: center;
     padding:5px;
     font-size:16px;
@@ -677,7 +680,7 @@ Offer Area start
     font-size:16px;
     text-align: left;
     line-height: 15px;
-    color:#454f50;
+    color:#8f9292;
     padding:0 10px;
     margin-bottom: 0;
 }
