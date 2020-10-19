@@ -592,8 +592,8 @@ Blog Area Start
 }
 #load-more .load-more button:hover{color:#000}
 #load-more .load-more button::after{
-    content:'arrow_forward';
-    font-family:'material icons';
+    content:'hello';
+/*     font-family:'material icons'; */
     position: absolute;
     top:50%;
     right:-20%;
