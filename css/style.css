@@ -587,6 +587,7 @@ Blog Area Start
  padding:20px;
  padding-right:0;
  position:relative;
+ background:none;
 
 }
 #load-more .load-more button::after{
@@ -626,7 +627,7 @@ Offer Area start
     font-weight: bold;
 }
 .offer .offer-des P{
-    color:#A5B3B4;
+    color:#454f50;
     text-align: center;
     padding:5px;
     font-size:16px;
@@ -681,7 +682,7 @@ Offer Area start
     font-size:16px;
     text-align: left;
     line-height: 15px;
-    color:#A5B3B4;
+    color:#454f50;
     padding:0 10px;
     margin-bottom: 0;
 }
